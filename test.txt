@@ -1,4 +1,8 @@
-users
-ekane
-clement
-ekwale
+#!/bin/bash
+#onboarding configurationn script for new users in admin department
+echo "Welcome to Landmark"
+echo "Please enter your first name"
+read first-name
+echo "Please enter last name"
+read last-name
+echo "your username is $first-name $last-name"
